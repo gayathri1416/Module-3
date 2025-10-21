@@ -15,8 +15,14 @@ To write a Python program that accepts a string and removes the character at a s
 8. Print the final result.
 
 ## 💻 Program
-Add Code Here
+def strtotuple(words):
+    print(tuple(words))
+    word=words[:2]+words[3:]
+    print(tuple(word))
+    print("Character Removed:",words[2])
 
 ## Output
+<img width="1249" height="309" alt="image" src="https://github.com/user-attachments/assets/e4b57d9c-34f1-4ca9-b7b2-c8120593f475" />
 
 ## Result
+Thus the python program is executed successfully.
